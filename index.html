@@ -1,0 +1,38 @@
+<!--James Hibble 15/01/19-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+
+<body>
+<h1> Calculator </h1>
+
+<div id="calcBody">
+    <input type="number" id="value1">
+    <br>
+
+    <select id="option">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <br>
+
+    <input type="text" id="value2">
+    <br>
+
+    <button id="submit" onclick="calculate()"> Equals </button>
+    <div id="answers"> The answers to your calculations will display here </div>
+
+    <button id="average" type="button" onclick="average()" disabled> Average </button>
+    <div id="avgNum"> The average of all your calculations will display here</div>
+</div>
+
+</body>
+
+</html>
